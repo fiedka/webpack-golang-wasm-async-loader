@@ -1,6 +1,6 @@
 {
   "name": "@fiedka/golang-wasm-async-loader",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Golang Wasm loader for webpack that generates an async pattern for working with Go's WebAssembly output",
   "main": "dist/index.js",
   "scripts": {
