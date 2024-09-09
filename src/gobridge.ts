@@ -23,8 +23,8 @@ export default function (getBytes: Promise<Buffer>) {
 
   async function init() {
     const go = new g.Go();
-    let bytes = await getBytes
-    let result = await WebAssembly.instantiate(bytes, go.importObject);
+    const bytes = await getBytes;
+    const result = await WebAssembly.instantiate(bytes, go.importObject);
     go.run(result.instance);
     ready = true;
   }

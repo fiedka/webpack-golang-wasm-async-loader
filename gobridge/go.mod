@@ -1,3 +1,3 @@
-module github.com/happybeing/webpack-golang-wasm-async-loader/gobridge
+module github.com/fiedka/webpack-golang-wasm-async-loader/gobridge
 
-go 1.13
+go 1.21
